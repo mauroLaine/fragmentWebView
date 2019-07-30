@@ -9,4 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    companion object{
+        val WEB_VIEW_URL = "http://www.google.com"
+    }
 }
